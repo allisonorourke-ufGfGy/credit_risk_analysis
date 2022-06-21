@@ -11,26 +11,31 @@ Cobination:
 * Accuracy Score:.65
 * Precison Score:The precision for the high-risk is low about 1% and for low-risk precision is high 100%.
 * Recall Score:The recall value for high-risk is slightly higher than the low-risk (70 and 58 respectively)
+![com](https://github.com/allisonorourke-ufGfGy/credit_risk_analysis/blob/main/Linear_regression/images/Combination.png)
 
 SMOTE:
 * Accuracy Score:.66
 * Precison Score:The precision for the high-risk is low about 1% and for low-risk precision is high 100%.
 * Recall Score: The recall value for high-risk is slightly higher than the low-risk (63 and 69 respectively)
+![smote](https://github.com/allisonorourke-ufGfGy/credit_risk_analysis/blob/main/Linear_regression/images/smote1.png)
 
 RandomOverSample:
 * Accuracy Score:.65
 * Precison Score:The precision for the high-risk is low about 1% and for low-risk precision is high 100%.
 * Recall Score:The recall value for high-risk is slightly higher than the low-risk (74 and 55 respectively).
+![random](https://github.com/allisonorourke-ufGfGy/credit_risk_analysis/blob/main/Linear_regression/images/Naive%20Rnadom%20Oversampling.png)
 
-ClusterCentroids:
+Undersampling:
 * Accuracy Score:.54
 * Precison Score: The precision for the high-risk is low about 1% and for low-risk precision is high 100%.
 * Recall Score: The recall value for high-risk is higher than the low-risk (67 and 42 respectively).
+![cluster](https://github.com/allisonorourke-ufGfGy/credit_risk_analysis/blob/main/Linear_regression/images/uNDERSAMPLING%201.png)
 
 BalancedRandomForestClassifier:
 * Accuracy Score:.79
 * Precison Score:The precision for the high-risk is low about 3% and for low-risk precision is high 100%.
 * Recall Score:The recall value for high-risk is higher than the low-risk(87 and 70 respectively).
+![Balanced](https://github.com/allisonorourke-ufGfGy/credit_risk_analysis/blob/main/Linear_regression/images/BalancedRandomForestClassifier.png)
 
 EasyEnsembleClassifier:
 * Accuracy Score:.93
