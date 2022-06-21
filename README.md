@@ -41,6 +41,7 @@ EasyEnsembleClassifier:
 * Accuracy Score:.93
 * Precison Score:The precision for the high-risk is low about 9% and for low-risk precision is high 100%.
 * Recall Score:The recall value for high-risk and low-risk are very similar  (92 and 94 respectively).
+![Easy](https://github.com/allisonorourke-ufGfGy/credit_risk_analysis/blob/main/Linear_regression/images/EasyEnsembleClassifer.png)
 
 ## Summary:
 The data shows that it is very hard for the machiene learning to predict credit-risk. Overall, I would liekly advise against the use of any of the algorithims. The EasyEnsembleClassifer model has the higher overall accuracy score with a .93 but this was probably due to the fact that the data was unbalanced. Even when it's balanced accuracy and average F-score were above .90 , it's F-score for high-risk prediction was no better than 0.16. With something as important as credit-score I just feel like this would put individuals too at risk to not be able to accuratly predict who is actually high risk.
